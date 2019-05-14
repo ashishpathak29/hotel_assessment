@@ -48,7 +48,7 @@ color:#fff;border: 2px solid #3a3a3a;font-size: 1em;padding: 0.4em 0.5em;border-
 .backBtn i {margin-right: 0.4em;}
 .logoBox a img {width: 38px;}
 .logo a{width: 30px; display: block}
-.bgImage{background: url(../images/background.png) no-repeat center center/cover;position: relative;display: flex;}
+.bgImage{background: url(../images/background.png) no-repeat center center/cover;position: relative;display: flex;    height: auto; min-height: 100%;}
 .outerWrap {width: 100%;margin: 0 auto;max-width: 675px;padding: 0 1.5em;}
 .imageWrap {margin: 1.5em 0;}
 .imageWrap img {border: 0.4em solid #fff;}
@@ -68,16 +68,18 @@ p.addLine3 {text-decoration: underline;}
 .arrow {position: absolute;right: 1em;top: 0.7em;transition: 0.3s all ease-in;}
 .accordion-head.open .arrow {transform: rotate(90deg);}
 
-
+.footerLinks{background: #1c1c1c;position: relative;width: 100%;display: flex;align-items: center;justify-content:center;padding:0.8em 1.5em;border-top: 2px solid #474747;}
+.footerLinks li a{color: #b1b1b1; text-decoration: none;padding: 0 1em}
+.footerLinks li a:hover{color: #ffffff}
 /*media Queries*/
 
 @media screen and (min-width : 768px) and (max-width : 1024px) {
-	.bgImage{height: 100%}
+	
 }
 
 @media screen and (max-width : 992px){
-	.bgImage{height: 100%}
+	
 }
 @media screen and (min-width : 320px) and (max-width : 767px) {
-	.bgImage{height: 100%}
+	
 }
